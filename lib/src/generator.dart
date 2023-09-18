@@ -10,7 +10,16 @@ import 'dart:convert';
 import 'dart:typed_data' show Uint8List;
 import 'package:hex/hex.dart';
 import 'package:gbk_codec/gbk_codec.dart';
-import 'package:esc_pos_utils/esc_pos_utils.dart';
+import '../esc_pos_utils.dart';
+import '../image_custom/src/draw/draw_image.dart';
+import '../image_custom/src/draw/fill.dart';
+import '../image_custom/src/filter/grayscale.dart';
+import '../image_custom/src/filter/invert.dart';
+import '../image_custom/src/image.dart';
+import '../image_custom/src/transform/copy_crop.dart';
+import '../image_custom/src/transform/copy_resize.dart';
+import '../image_custom/src/transform/copy_rotate.dart';
+import '../image_custom/src/transform/flip.dart';
 import 'enums.dart';
 import 'commands.dart';
 

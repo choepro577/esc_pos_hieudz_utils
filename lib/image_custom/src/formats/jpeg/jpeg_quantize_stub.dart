@@ -1,5 +1,6 @@
 import 'dart:typed_data';
-import '../../../image.dart';
+
+import 'package:esc_pos_hieudz_utils/image_custom/src/formats/jpeg/jpeg_data.dart';
 
 import '../../image.dart';
 

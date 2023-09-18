@@ -1,4 +1,4 @@
-import '../../../image.dart';
+import 'package:esc_pos_hieudz_utils/image_custom/src/formats/pvrtc/pvrtc_color.dart';
 
 class PvrtcColorBoundingBox<Color extends PvrtcColorRgbCore<Color>> {
   Color min;

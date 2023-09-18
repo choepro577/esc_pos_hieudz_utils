@@ -1,4 +1,5 @@
-import '../../image.dart' show Point;
+import 'package:esc_pos_hieudz_utils/image_custom/src/util/point.dart';
+
 import '../image.dart';
 
 /// Returns a cropped copy of [src].

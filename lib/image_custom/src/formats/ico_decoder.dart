@@ -1,4 +1,6 @@
-import '../../image.dart';
+import 'package:esc_pos_hieudz_utils/image_custom/src/formats/bmp_decoder.dart';
+import 'package:esc_pos_hieudz_utils/image_custom/src/formats/png_decoder.dart';
+
 import '../animation.dart';
 import '../image.dart';
 import '../util/input_buffer.dart';

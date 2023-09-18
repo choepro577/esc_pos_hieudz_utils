@@ -1,4 +1,5 @@
-import '../../image.dart';
+import 'package:esc_pos_hieudz_utils/image_custom/src/util/point.dart';
+
 import 'ico_encoder.dart';
 
 class CurEncoder extends WinEncoder {

@@ -1,12 +1,13 @@
 import 'dart:typed_data';
 
-import '../../../formats/exr/exr_channel.dart';
+import 'package:esc_pos_hieudz_utils/image_custom/src/formats/exr/exr_channel.dart';
+import 'package:esc_pos_hieudz_utils/image_custom/src/formats/exr/exr_part.dart';
+
 import '../../formats/decode_info.dart';
 import '../../hdr/hdr_image.dart';
 import '../../hdr/hdr_slice.dart';
 import '../../image_exception.dart';
 import '../../util/input_buffer.dart';
-import 'exr_part.dart';
 
 class ExrImage extends DecodeInfo {
   /// An EXR image has one or more parts, each of which contains a framebuffer.
